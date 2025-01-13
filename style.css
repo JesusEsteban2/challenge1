@@ -83,7 +83,7 @@ body {
     max-width: 90%;
     background-color: var(--bg-body-sc);
     margin: 5rem;
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 
 .image-container {
@@ -122,4 +122,13 @@ fieldset {
 
 button {
     background-color: var(--fc-body-sc);
+}
+
+.selection {
+    align-items: center;
+    border-radius: 25%;
+}
+
+.thanks {
+    width: 15rem;
 }
