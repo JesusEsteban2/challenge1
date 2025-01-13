@@ -44,7 +44,12 @@ h6 {
 /* End reset CSS */
 
 :root {
-    --bs-body-bg: hsl(25, 97%, 53%);
+    --fc-body-pr: hsl(0, 0%, 100%);
+    --bg-body-pr: hsl(25, 97%, 53%);
+
+    --LightGrey: hsl(217, 12%, 63%)
+    --DarkBlue: hsl(213, 19%, 18%)
+    -- VeryDarkBlue: hsl(216, 12%, 8%)
     -bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
@@ -60,12 +65,7 @@ h6 {
     box-sizing: border-box;
 }
 
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
+body {
+    background-color: var(--bg-body-pr);
+    color: var(--fc-body-pr);
 }
