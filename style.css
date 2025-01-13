@@ -76,7 +76,7 @@ body {
     justify-content: flex-start;
     padding: 1rem;
     height: fit-content;
-    max-width: 90%;
+    max-width: 100%;
     background-color: var(--bg-body-sc);
     padding: 2rem;
     border-radius: 1rem;
