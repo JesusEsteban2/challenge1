@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Práctica Modulo 1-Challenge1" />
+        <title>"Práctica Modulo 1-Challenge1"</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href=".\layout\favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" type="module" defer></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Práctica Modulo 1-Challenge1" />
-    <title>"Práctica Modulo 1-Challenge1"</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href=".\layout\favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" type="module" defer></script>
-</head>
+    <body>
+        <div class="card">
+            <div class="image-container">
+                <img
+                    src="./layout/icon-star.svg"
+                    alt="imagen de una estrella"
+                />
+            </div>
 
-<body>
-    <div class="card">
+            <h2>¿Cómo lo hicimos?</h2>
+            <section>
+                <p>
+                    Por favor, haznos saber cómo lo hicimos con tu solicitud de
+                    soporte.
+                </p>
+                <p>
+                    Todos los comentarios son bienvenidos para ayudarnos a
+                    mejorar nuestra oferta!
+                </p>
+            </section>
+            <form>
+                <fieldset>
+                    <input type="radio" id="one" name="assessment" value="1" />
+                    <label for="one">1</label>
 
-        <div class="image-container">
-            <img src="./layout/icon-star.svg" alt="imagen de una estrella">
+                    <input type="radio" id="two" name="assessment" value="2" />
+                    <label for="two">2</label>
+
+                    <input
+                        type="radio"
+                        id="three"
+                        name="assessment"
+                        value="3"
+                    />
+                    <label for="three">3</label>
+
+                    <input type="radio" id="four" name="assessment" value="4" />
+                    <label for="four">4</label>
+
+                    <input type="radio" id="five" name="assessment" value="5" />
+                    <label for="five">5</label>
+                </fieldset>
+                <input class="button" type="submit" value="Enviar" />
+            </form>
         </div>
-
-
-        <h2>¿Cómo lo hicimos?</h2>
-        <section>
-            <p>Por favor, haznos saber cómo lo hicimos con tu solicitud de soporte.</p>
-            <p>Todos los comentarios son bienvenidos para ayudarnos a mejorar nuestra oferta!</p>
-        </section>
-        <form>
-            <fieldset>
-
-                <input type="radio" id="one" name="assessment" value="1" />
-                <label for="one">1</label>
-
-                <input type="radio" id="two" name="assessment" value="2" />
-                <label for="two">2</label>
-
-                <input type="radio" id="three" name="assessment" value="3" />
-                <label for="three">3</label>
-
-                <input type="radio" id="four" name="assessment" value="4" />
-                <label for="four">4</label>
-
-                <input type="radio" id="five" name="assessment" value="5" />
-                <label for="five">5</label>
-
-            </fieldset>
-            <input class="button" type="submit" value="Enviar">
-        </form>
-    </div>
-</body>
-
+    </body>
 </html>
