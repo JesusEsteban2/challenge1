@@ -26,8 +26,8 @@ La funcionalidad de tus usuarios debe ser:
 -   Crea un repositorio git con un README.md personalizado.
 -   Enlaza tu proyecto como un repositorio público en GitHub. Será tu forma de entregar el proyecto.
 -   Configura tu repositorio para publicar tu código en una dirección web.
--   Revisa los diseños para comenzar a planificar cómo abordarás el proyecto. Este paso es crucial para ayudarte a pensar con anticipación en las clases de CSS para crear estilos reutilizables.
--   Antes de agregar cualquier estilo, estructura tu contenido con HTML. Escribir tu HTML primero puede ayudar a centrar tu atención en crear contenido bien estructurado.
+-   Revisa los diseños para comenzar a planificar cómo abordarás el proyecto.
+-   Antes de agregar cualquier estilo, estructura tu contenido con HTML. - Escribir tu HTML primero puede ayudar a centrar tu atención en crear contenido bien estructurado.
     Crea las variables de CSS para los colores y fuentes en el archivo style-guide.md. Esto te proporcionará un lugar central para almacenar estos valores para que puedas mantenerlos y actualizarlos fácilmente.
     Escribe los estilos base para tu proyecto, incluyendo estilos generales de contenido, como font-family y font-size.
     Comienza a agregar estilos desde la parte superior de la página y trabaja hacia abajo.

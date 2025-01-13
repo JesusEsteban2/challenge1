@@ -45,18 +45,20 @@ h6 {
 
 :root {
     --fc-body-pr: hsl(0, 0%, 100%);
+    --fc-body-sc: hsl(25, 97%, 53%);
     --bg-body-pr: hsl(216, 12%, 8%);
-    --bg-body-sc: hsl(25, 97%, 53%);
+    --bg-body-sc: hsl(213, 19%, 18%);
+    --bg-body-tr: hsl(212, 20%, 29%);
 
     --LightGrey: hsl(217, 12%, 63%);
-    --DarkBlue: hsl(213, 19%, 18%);
 
     -bs-font-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial,
         "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-    --bs-h2-font-size: 2rem;
-    --bs-p-font-size: 1rem;
+    --bs-h2-font-size: 2.5rem;
+    --bs-p-font-size: 1.5rem;
+    --bs-p-interline: 1rem;
 
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
@@ -74,15 +76,22 @@ body {
 }
 
 .card {
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    max-width: 90%;
+    background-color: var(--bg-body-sc);
     margin: 5rem;
+    border-radius: 5%;
 }
 
 .image-container {
     display: block;
     width: fit-content;
     border-radius: 50%;
-    background-color: var(--DarkBlue);
+    background-color: var(--bg-body-tr);
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -93,8 +102,24 @@ img {
 
 h2 {
     font-size: var(--bs-h2-font-size);
+    margin-bottom: 1.5rem;
 }
 
 p {
     font-size: var(--bs-p-font-size);
+    margin-bottom: var(--bs-p-interline);
+}
+
+form {
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap 10px;
+}
+
+button {
+    background-color: var(--fc-body-sc:);
 }
