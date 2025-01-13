@@ -45,20 +45,21 @@ h6 {
 
 :root {
     --fc-body-pr: hsl(0, 0%, 100%);
-    --bg-body-pr: hsl(25, 97%, 53%);
+    --bg-body-pr: hsl(216, 12%, 8%);
+    --bg-body-sc: hsl(25, 97%, 53%);
 
-    --LightGrey: hsl(217, 12%, 63%)
-    --DarkBlue: hsl(213, 19%, 18%)
-    --VeryDarkBlue: hsl(216, 12%, 8%)
-    -bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
-    --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 1rem;
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+
+    -bs-font-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --bs-h2-font-size: 2rem;
+    --bs-p-font-size: 1rem;
+
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #212529;
 }
 
 * {
@@ -68,4 +69,32 @@ h6 {
 body {
     background-color: var(--bg-body-pr);
     color: var(--fc-body-pr);
+    font-family: "Overpass", serif;
+    font-style: normal;
+}
+
+.card {
+    max-width: 100%;
+    margin: 5rem;
+}
+
+.image-container {
+    display: block;
+    width: fit-content;
+    border-radius: 50%;
+    background-color: var(--DarkBlue);
+    margin-bottom: 2rem;
+}
+
+img {
+    width: 4.5rem;
+    padding: 1.5rem;
+}
+
+h2 {
+    font-size: var(--bs-h2-font-size);
+}
+
+p {
+    font-size: var(--bs-p-font-size);
 }
